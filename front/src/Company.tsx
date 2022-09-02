@@ -5,12 +5,12 @@ function Company() {
     return (
         <div>
             <div className="container" style={{ maxWidth: '1000px', textAlign: 'center', margin: '0 auto', padding: '80px 0' }}>
-                <div className="common-headline" style={{ marginBottom: '150px', position: 'relative' }}>
+                <div className="o-common-headline u-large">
                     <h4 className="-red" style={{ fontSize: '5.4rem', fontWeight: '500', letterSpacing: '3px', margin: '0', padding: '0' }}>COMPANY</h4>
                     <p className="-red" style={{ fontSize: '1.6rem' }}>会社情報</p>
                     <div style={{ width: '1px', height: '100px', backgroundColor: '#e8374a', margin: '0 auto', left: '50%', position: 'absolute' }}></div>
                 </div>
-                <div className="-mb120" style={{ marginBottom: '120px' }}>
+                <div className="u-middle">
                     <p style={{ color: '#bebebe', opacity: '1', fontSize: '6rem', fontWeight: '700', letterSpacing: '1.5px', textAlign: 'center', margin: '0', padding: '0' }}>Vision</p>
                     <p style={{ fontSize: '1.8rem', color: '#bebebe', fontWeight: '700' }}>経営理念</p>
                     <h4 style={{ fontSize: '3.6rem', fontWeight: '700', margin: '0 auto 40px' }}>
