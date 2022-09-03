@@ -18,7 +18,7 @@ function Company() {
                             <span className="-red">“人を作る”</span><span>だから</span><span className="-red">“物を作れる”</span>
                         </h4>
                         <div className="o-inner u-mb-small">
-                            <p className="headline -red" style={{ fontSize: '2rem', fontWeight: '700', marginBottom: '10px' }}>”人を作る”</p>
+                            <p className="o-headline -red">”人を作る”</p>
                             <p className="u-text">
                                 ～ 人間をロボットにしない ～
                                 <br />
@@ -29,7 +29,7 @@ function Company() {
                             <div style={{ width: '1px', height: '40px', backgroundColor: '#e8374a', margin: '0 auto', left: '50%', position: 'absolute' }}></div>
                         </div>
                         <div className="o-inner">
-                            <p className="-red" style={{ fontSize: '2rem', fontWeight: '700', marginBottom: '10px' }}>自分自身の存在価値を疑う者たちをなくすため</p>
+                            <p className="o-headline -red">自分自身の存在価値を疑う者たちをなくすため</p>
                             <p className="u-text">
                                 人が豊かな状態であるときは、苦楽を感じる状態である。
                                 <br />
