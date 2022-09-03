@@ -6,7 +6,7 @@ function Company() {
         <div>
             <div className="container" style={{ maxWidth: '1000px', textAlign: 'center', margin: '0 auto', padding: '80px 0' }}>
                 <div className="o-common-headline u-large">
-                    <h4 className="-red" style={{ fontSize: '5.4rem', fontWeight: '500', letterSpacing: '3px', margin: '0', padding: '0' }}>COMPANY</h4>
+                    <h4 className="o-headline -red">COMPANY</h4>
                     <p className="u-text -red">会社情報</p>
                     <div style={{ width: '1px', height: '100px', backgroundColor: '#e8374a', margin: '0 auto', left: '50%', position: 'absolute' }}></div>
                 </div>
