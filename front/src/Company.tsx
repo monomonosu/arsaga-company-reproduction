@@ -6,12 +6,12 @@ function Company() {
         <div>
             <div className="o-common-container u-mt80">
                 <div className="o-container">
-                    <div className="o-common-headline u-large">
+                    <div className="o-common-headline u-mb-large">
                         <h4 className="o-headline -red">COMPANY</h4>
                         <p className="u-text -red">会社情報</p>
                         <div style={{ width: '1px', height: '100px', backgroundColor: '#e8374a', margin: '0 auto', left: '50%', position: 'absolute' }}></div>
                     </div>
-                    <div className="o-company-container u-middle">
+                    <div className="o-company-container u-mb-middle">
                         <p style={{ color: '#bebebe', opacity: '1', fontSize: '6rem', fontWeight: '700', letterSpacing: '1.5px', textAlign: 'center', margin: '0', padding: '0' }}>Vision</p>
                         <p style={{ fontSize: '1.8rem', color: '#bebebe', fontWeight: '700' }}>経営理念</p>
                         <h4 className="o-heading">
