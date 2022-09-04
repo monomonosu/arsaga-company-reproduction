@@ -26,7 +26,7 @@ function Company() {
                                 <br />
                                 必要とされる人となる。
                             </p>
-                            <div style={{ width: '1px', height: '40px', backgroundColor: '#e8374a', margin: '0 auto', left: '50%', position: 'absolute' }}></div>
+                            <div className="c-vertical-line u-h-small u-red"></div>
                         </div>
                         <div className="o-inner">
                             <p className="o-headline u-red">自分自身の存在価値を疑う者たちをなくすため</p>
