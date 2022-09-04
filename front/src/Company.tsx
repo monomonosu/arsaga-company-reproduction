@@ -1,5 +1,6 @@
 import "./styles/main.css"
 import "./styles/main.scss";
+import { OnScreenJudge } from './components/OnScreenJudge';
 
 function Company() {
     return (
@@ -12,6 +13,7 @@ function Company() {
                         <div className="c-vertical-line u-h-large u-red"></div>
                     </div>
                     <div className="o-company-container u-mb-middle">
+                        <OnScreenJudge />
                         <p style={{ color: '#bebebe', opacity: '1', fontSize: '6rem', fontWeight: '700', letterSpacing: '1.5px', textAlign: 'center', margin: '0', padding: '0' }}>Vision</p>
                         <p style={{ fontSize: '1.8rem', color: '#bebebe', fontWeight: '700' }}>経営理念</p>
                         <h4 className="o-heading">
