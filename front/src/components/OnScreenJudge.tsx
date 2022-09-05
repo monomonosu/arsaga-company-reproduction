@@ -1,15 +1,22 @@
 import { useOnScreen } from "./useOnScreen"
 import { useRef } from "react";
 
-export const OnScreenJudge = () => {
+type Props = {
+    before: JSX.Element
+    after: JSX.Element
+}
+
+export const OnScreenJudge = (props: Props) => {
     const targetRef = useRef(null);
     const targetViewPosition = useOnScreen(targetRef);
     return (
         <>
-            {targetViewPosition === 'VISIBLE' && <p>画面内に表示されています</p>}
-            {targetViewPosition === 'ABOVE_VIEWPORT' && <p>画面より上に表示されています</p>}
-            {targetViewPosition === 'BELOW_VIEWPORT' && <p>画面より下に表示されています</p>}
-            <div ref={targetRef}>位置をチェックする対象の要素</div>
+            {targetViewPosition === 'VISIBLE' && props.after}
+            {targetViewPosition === 'ABOVE_VIEWPORT' && props.before}
+            {targetViewPosition === 'BELOW_VIEWPORT' && props.before}
+            <div ref={targetRef}>
+                {/* 位置をチェックする対象の要素 */}
+            </div>
         </>
     )
 }
