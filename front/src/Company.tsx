@@ -54,6 +54,32 @@ function Company() {
                             </p>
                         </div>
                     </div>
+                    <div className="o-company-container u-mb-middle">
+                        <OnScreenJudge before={onEnterScreenBeforeElement} after={onEnterScreenAfterElement('Mission')} />
+                        <div className="o-title">
+                            <p className="c-sub">Vision達成のためのミッション</p>
+                        </div>
+                        <h4 className="o-heading">
+                            <span className="u-red">相互成長する</span>
+                            <br />
+                            <span className="c-sub">人を支え合う文化を育む</span>
+                        </h4>
+                        <div className="o-inner u-mb-small">
+                            <p className="u-text">
+                                相互成長するために、仕事(やりがい)は何でも全力でやる。<br />
+                                相互成長するために、バグを否定しない。<br />
+                                相互成長するために、否定するなら代替案を。<br />
+                                相互成長するために、相手のことをリスペクトする。
+                            </p>
+                        </div>
+                        <div className="o-inner">
+                            <p className="o-headline">
+                                一人ひとりの成長が物づくりにおける
+                                <span className="u-red"> “最高品質を最速で”</span>
+                                につながる
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
