@@ -1,0 +1,68 @@
+.c-title-text {
+    color: $gray;
+    opacity: 0;
+    font-size: 6rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+    & {
+        animation-name: titleAnim;
+        animation-fill-mode: forwards;
+        animation-duration: 0.5s;
+        animation-timing-function: step-end;
+    }
+}
+
+
+@keyframes titleAnim {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.c-title-animation {
+    position: relative;
+    overflow: hidden;
+}
+
+.c-title-animation::after {
+    background: $gray-dark;
+    bottom: 0;
+    content: '';
+    display: block;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(0, 100%);
+}
+
+.c-title-animation.is-animated {
+    color: $gray;
+}
+
+.c-title-animation.is-animated::after {
+    animation: c-title-animation 1.2s cubic-bezier(0.8, 0, 0.170, 1);
+}
+
+@keyframes c-title-animation {
+    0% {
+        transform: translate(-100%, 0)
+    }
+
+    40%,
+    60% {
+        transform: translate(0, 0%)
+    }
+
+    100% {
+        transform: translate(100%, 0)
+    }
+}
