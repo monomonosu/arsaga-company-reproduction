@@ -9,7 +9,7 @@ const onEnterScreenBeforeElement = (
 function onEnterScreenAfterElement(title: string) {
     return (
         <div className="c-title-animation u-inline is-animated">
-            <p className="title" style={{ color: '#bebebe', opacity: '0', fontSize: '6rem', fontWeight: '700', letterSpacing: '1.5px', textAlign: 'center', margin: '0', padding: '0', }}>{title}</p>
+            <p className="c-title-text">{title}</p>
         </div>
     )
 }
