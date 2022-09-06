@@ -15,21 +15,10 @@
     padding: 0;
 
     & {
-        animation-name: titleAnim;
+        animation-name: titleTextAnim;
         animation-fill-mode: forwards;
         animation-duration: 0.5s;
         animation-timing-function: step-end;
-    }
-}
-
-
-@keyframes titleAnim {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
     }
 }
 
@@ -55,20 +44,5 @@
 }
 
 .c-title-animation.is-animated::after {
-    animation: c-title-animation 1.2s cubic-bezier(0.8, 0, 0.170, 1);
-}
-
-@keyframes c-title-animation {
-    0% {
-        transform: translate(-100%, 0)
-    }
-
-    40%,
-    60% {
-        transform: translate(0, 0%)
-    }
-
-    100% {
-        transform: translate(100%, 0)
-    }
+    animation: titleAnim 1.2s cubic-bezier(0.8, 0, 0.170, 1);
 }
