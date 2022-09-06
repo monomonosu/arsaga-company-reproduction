@@ -80,6 +80,16 @@ function Company() {
                             </p>
                         </div>
                     </div>
+                    <div className="o-company-container u-mb-middle">
+                        <OnScreenJudge before={onEnterScreenBeforeElement} after={onEnterScreenAfterElement('Value')} />
+                        <div className="o-title">
+                            <p className="c-sub">価値観・行動指針</p>
+                        </div>
+                        <div className="o-inner u-mb-very-small">
+                            <p className="u-text">私たちのVisionやMissionを貫くために必要な8つの指針です。</p>
+                        </div>
+                        
+                    </div>
                 </div>
             </div>
         </div>
