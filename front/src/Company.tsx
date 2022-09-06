@@ -26,7 +26,9 @@ function Company() {
                     </div>
                     <div className="o-company-container u-mb-middle">
                         <OnScreenJudge before={onEnterScreenBeforeElement} after={onEnterScreenAfterElement('Vision')} />
-                        <p style={{ fontSize: '1.8rem', color: '#bebebe', fontWeight: '700' }}>経営理念</p>
+                        <div className="o-title">
+                            <p className="c-sub">経営理念</p>
+                        </div>
                         <h4 className="o-heading">
                             <span className="u-red">“人を作る”</span><span>だから</span><span className="u-red">“物を作れる”</span>
                         </h4>
