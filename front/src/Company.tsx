@@ -168,6 +168,78 @@ function Company() {
                             />
                         </div>
                     </div>
+                    <div className="o-common-container">
+                        <div className="o-container">
+                            <div className="o-common-headline">
+                                <h4 className="o-headline">
+                                    COMPANY PROFILE
+                                </h4>
+                                <p className="u-text">会社概要</p>
+                                <div className="c-vertical-line u-h-small u-red"></div>
+                            </div>
+                            <div>
+                                <table className="c-company-profile-table">
+                                    <tbody>
+                                        <tr>
+                                            <th>会社名</th>
+                                            <td>アルサーガパートナーズ株式会社</td>
+                                        </tr>
+                                        <tr>
+                                            <th>設立</th>
+                                            <td>2016年1月8日</td>
+                                        </tr>
+                                        <tr>
+                                            <th>資本金</th>
+                                            <td>6億7,000万円（資本準備金含む、2022年7月現在）</td>
+                                        </tr>
+                                        <tr>
+                                            <th>代表者名</th>
+                                            <td>代表取締役社長 CEO/CTO 小俣泰明</td>
+                                        </tr>
+                                        <tr>
+                                            <th>役員</th>
+                                            <td>
+                                                取締役：佐藤理一、渡邉直登　社外取締役：山木学<br />
+                                                監査役：植田光信　非常勤監査役：茅原淳一
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>経営アドバイザー</th>
+                                            <td>顧問: 海老根智仁、長南伸明</td>
+                                        </tr>
+                                        <tr>
+                                            <th>従業員数</th>
+                                            <td>239名（2022年7月現在）</td>
+                                        </tr>
+                                        <tr>
+                                            <th>所在地</th>
+                                            <td>
+                                                東京本社<br />
+                                                〒150-0043<br />
+                                                東京都渋谷区道玄坂一丁目12番1号　渋谷マークシティウエスト15階<br />
+                                                <a href="">＞Google Map</a><br />
+                                                <br />
+                                                フロンティアビジョンスタジオ<br />
+                                                〒860-0833<br />
+                                                熊本県熊本市中央区平成3丁目7番10号<br />
+                                                <a href="">＞Webサイト</a><br />
+                                                <a href="">＞Google Map</a><br />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>事業内容</th>
+                                            <td>
+                                                ワンストップ型ITシステム開発スタジオ事業<br />
+                                                IT新規事業コンサルティング／エンタープライズシステム新規事業企画（DX）開発／<br />
+                                                ウェブシステム企画・開発／アプリケーションシステム企画・開発／<br />
+                                                ウェブ制作・ウェブマーケティング・コンサルティング<br />
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
