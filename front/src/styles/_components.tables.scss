@@ -1,0 +1,25 @@
+.c-company-profile-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+    margin-bottom: 30px;
+
+    tr {
+        border-bottom: 1px solid #b1b1b1;
+    }
+
+    tr:last-child {
+        border-bottom: none;
+    }
+
+    th {
+        vertical-align: baseline;
+        padding: 15px 0;
+        text-align: left;
+    }
+
+    td {
+        vertical-align: baseline;
+        padding: 15px 0;
+    }
+}
