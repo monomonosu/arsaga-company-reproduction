@@ -1,0 +1,13 @@
+.value-item {
+    >.c-text {
+        font-size: 1.6rem;
+        margin-bottom: 6px;
+        display: list-item;
+        list-style-position: outside;
+        margin-left: 20px;
+
+        &::marker {
+            color: $red;
+        }
+    }
+}

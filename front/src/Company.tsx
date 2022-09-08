@@ -80,6 +80,32 @@ function Company() {
                             </p>
                         </div>
                     </div>
+                    <div className="o-company-container u-mb-middle">
+                        <OnScreenJudge before={onEnterScreenBeforeElement} after={onEnterScreenAfterElement('Value')} />
+                        <div className="o-title">
+                            <p className="c-sub">価値観・行動指針</p>
+                        </div>
+                        <div className="o-inner u-mb-very-small">
+                            <p className="u-text">私たちのVisionやMissionを貫くために必要な8つの指針です。</p>
+                        </div>
+                        <div className="list">
+                            <dl className="o-value-box">
+                                <div className="c-value-title">
+                                    <dt>
+                                        判断する勇気を持とう
+                                    </dt>
+                                </div>
+                                <div className="value-item">
+                                    <p className="c-sub">
+                                        判断は脳を使う
+                                    </p>
+                                    <dd className="c-text">「先送りする」という判断をしない。まず判断して、軌道修正すればいい。</dd>
+                                    <dd className="c-text">「目先の対応」と「本来の目的への対応」は別物である。</dd>
+                                    <dd className="c-text">「緊急性が高いこと」ではなく、「真に重要なこと」に時間を使う。そのために「真に重要なこと」は何であるかを判断しよう。</dd>
+                                </div>
+                            </dl>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
