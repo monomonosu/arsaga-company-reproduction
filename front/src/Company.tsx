@@ -217,13 +217,13 @@ function Company() {
                                                 東京本社<br />
                                                 〒150-0043<br />
                                                 東京都渋谷区道玄坂一丁目12番1号　渋谷マークシティウエスト15階<br />
-                                                <a href="">＞Google Map</a><br />
+                                                <a href="https://www.google.com/maps/place/%E3%82%A2%E3%83%AB%E3%82%B5%E3%83%BC%E3%82%AC%E3%83%91%E3%83%BC%E3%83%88%E3%83%8A%E3%83%BC%E3%82%BA%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE/@35.658046,139.6980562,15z/data=!4m5!3m4!1s0x0:0xb589d6e007e4621d!8m2!3d35.658046!4d139.6980562">＞Google Map</a><br />
                                                 <br />
                                                 フロンティアビジョンスタジオ<br />
                                                 〒860-0833<br />
                                                 熊本県熊本市中央区平成3丁目7番10号<br />
-                                                <a href="">＞Webサイト</a><br />
-                                                <a href="">＞Google Map</a><br />
+                                                <a href="https://www.fvs-net.co.jp/">＞Webサイト</a><br />
+                                                <a href="https://www.google.co.jp/maps/place/%E3%83%95%E3%83%AD%E3%83%B3%E3%83%86%E3%82%A3%E3%82%A2%E3%83%93%E3%82%B8%E3%83%A7%E3%83%B3%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE/@32.781619,130.7025103,17z/data=!3m1!4b1!4m5!3m4!1s0x3540f4886b69da0b:0x86599295c6247291!8m2!3d32.7816245!4d130.7046984">＞Google Map</a><br />
                                             </td>
                                         </tr>
                                         <tr>
