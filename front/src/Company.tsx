@@ -19,6 +19,7 @@ function Company() {
     return (
         <div>
             <div className="o-common-container u-mt80">
+                <p className="c-company-name-vertical">Arsaga Partners, Inc.</p>
                 <div className="o-container">
                     <div className="o-common-headline u-mb-large">
                         <h4 className="o-headline u-red">COMPANY</h4>
