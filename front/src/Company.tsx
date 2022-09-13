@@ -243,6 +243,34 @@ function Company() {
                     </div>
                 </div>
             </div>
+            <section className="o-common-container -u-bgred">
+                <div className="o-container">
+                    <div className="o-common-headline">
+                        <h4 className="o-headline">
+                            ORIGIN OF THE NAME
+                        </h4>
+                        <p className="u-text">
+                            会社名の由来
+                        </p>
+                        <div className="c-vertical-line u-h-small u-red"></div>
+                    </div>
+                    <div className="top-container">
+                        <div className="o-container -u-flex">
+                            <div className="o-inner">
+                                <p className="o-headline u-mb-very-small">ars=アート(技術)</p>
+                                <p className="c-text u-mb-very-small">
+                                    ラテン語の ars はギリシア語の テクネー に相当し、本来は「芸術」というより、自然に対置される人間の「技」や「技術」を意味する言葉であった。
+                                    saga 壮大な物語 この言葉を合体させた造語。 「芸術(デザイン)」と「技術」を兼ね備えた制作集団。新規事業の苦楽を共に歩む。そこにはたくさんの物語がある。
+                                    多くの企業にモノ作り力を投資する形でパートナー企業として牽引する
+                                </p>
+                            </div>
+                            <div className="-u-width50">
+                                <img src="https://www.arsaga.jp/wp-content/themes/new-arsaga-hp-copy/img/company/back_logo.svg" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
     )
 }

@@ -16,6 +16,17 @@
     margin-bottom: 10px;
 }
 
+.top-container {
+    >.o-container {
+        >.o-inner {
+            >.o-headline {
+                font-size: 2.4rem;
+                position: relative;
+            }
+        }
+    }
+}
+
 .o-heading {
     font-size: 3.6rem;
     font-weight: 700;
