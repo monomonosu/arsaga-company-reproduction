@@ -271,6 +271,11 @@ function Company() {
                     </div>
                 </div>
             </section>
+            <div className="foot-card">
+                <div className="o-inner -u-bgwhite">
+                    a
+                </div>
+            </div>
         </div>
     )
 }
