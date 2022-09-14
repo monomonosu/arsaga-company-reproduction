@@ -273,7 +273,16 @@ function Company() {
             </section>
             <div className="foot-card">
                 <div className="o-inner -u-bgwhite">
-                    a
+                    <div className="o-common-headline -u-mb-60">
+                        <h4 className="o-headline">CONTENT</h4>
+                        <p className="c-text">外部コンテンツ</p>
+                    </div>
+                    <div className="o-box">
+                        <div className="o-icon">a</div>
+                        <div className="o-icon">a</div>
+                        <div className="o-icon">a</div>
+                        <div className="o-icon">a</div>
+                    </div>
                 </div>
             </div>
         </div>
