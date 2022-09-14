@@ -24,3 +24,11 @@
 .o-inner {
     width: 100%;
 }
+
+.foot-card {
+    >.o-inner {
+        padding: 80px 0 60px;
+        background-color: #efefef;
+        text-align: center;
+    }
+}
