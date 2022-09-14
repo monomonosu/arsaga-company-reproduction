@@ -5,8 +5,11 @@
 
 .o-container {
     max-width: 1000px;
-    padding: 80px 0;
     margin: 0 auto;
+}
+
+.o-common-container>.o-container {
+    padding: 80px 0;
 }
 
 .o-company-container {
