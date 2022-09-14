@@ -30,5 +30,23 @@
         padding: 80px 0 60px;
         background-color: #efefef;
         text-align: center;
+
+        >.o-box {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+            max-width: 340px;
+            margin: auto;
+            background-color: $gray-light;
+
+            >.o-icon {
+                position: relative;
+                width: 64px;
+                height: 64px;
+                background-color: #fff;
+                box-shadow: 2px 2px 1px rgba(177, 177, 177, 50%);
+            }
+        }
     }
 }
