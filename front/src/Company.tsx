@@ -278,10 +278,26 @@ function Company() {
                         <p className="c-text">外部コンテンツ</p>
                     </div>
                     <div className="o-box">
-                        <div className="o-icon">a</div>
-                        <div className="o-icon">a</div>
-                        <div className="o-icon">a</div>
-                        <div className="o-icon">a</div>
+                        <div className="o-icon">
+                            <a className="c-link" href="https://twitter.com/arsagapartners">
+                                <img src="https://www.arsaga.jp/wp-content/themes/new-arsaga-hp-copy/img/common/icon/twitter.svg" alt="Twitter" />
+                            </a>
+                        </div>
+                        <div className="o-icon">
+                            <a className="c-link" href="https://www.facebook.com/arsagapartners/">
+                                <img src="https://www.arsaga.jp/wp-content/themes/new-arsaga-hp-copy/img/common/icon/facebook.svg" alt="Facebook" />
+                            </a>
+                        </div>
+                        <div className="o-icon">
+                            <a className="c-link" href="https://qiita.com/organizations/arsagapartners">
+                                <img src="https://www.arsaga.jp/wp-content/themes/new-arsaga-hp-copy/img/common/icon/qiita.svg" alt="Qiita" />
+                            </a>
+                        </div>
+                        <div className="o-icon">
+                            <a className="c-link" href="https://www.wantedly.com/companies/arsaga">
+                                <img src="https://www.arsaga.jp/wp-content/themes/new-arsaga-hp-copy/img/common/icon/wantedly.svg" alt="Wantedly" />
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
