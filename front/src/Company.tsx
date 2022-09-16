@@ -243,7 +243,7 @@ function Company() {
                     </div>
                 </div>
             </div>
-            <section className="o-common-container -u-bgred">
+            <section className="o-common-container -u-bgredlight">
                 <div className="o-container">
                     <div className="o-common-headline">
                         <h4 className="o-headline">
@@ -299,6 +299,25 @@ function Company() {
                             </a>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div className="foot-card">
+                <div className="o-inner">
+                    <div className="o-common-headline u-mb-100">
+                        <h4 className="o-headline">CONTACT</h4>
+                        <p className="c-text">下記よりお気軽にご連絡下さい。</p>
+                        <div className="c-vertical-line u-h-small u-red"></div>
+                    </div>
+                    <div className="c-button-common c-contacttext -u-bgred -u-white -u-mauto">
+                        <a className="c-text -u-white" href="">
+                            お問い合わせ<br />
+                            CONTACT
+                        </a>
+                    </div>
+                    <a className="c-text-link c-text" href="">
+                        <img className="c-icon" src="https://www.arsaga.jp/wp-content/themes/new-arsaga-hp-copy/img/contact/icon/line.png" alt="line" />
+                        LINEでお問い合わせ
+                    </a>
                 </div>
             </div>
         </div>
