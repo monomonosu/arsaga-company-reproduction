@@ -1,0 +1,15 @@
+.c-button-common {
+    border: 2px solid #333;
+    position: relative;
+    overflow: hidden;
+}
+
+.c-button-common {
+    &.c-contacttext {
+        max-width: 680px;
+        height: 100px;
+        margin-bottom: 50px;
+        border: none;
+        transition: all .3s;
+    }
+}
