@@ -314,7 +314,7 @@ function Company() {
                             CONTACT
                         </a>
                     </div>
-                    <a className="c-text-link c-text" href="">
+                    <a className="c-text-link c-text" href="https://www.arsaga.jp/contact/">
                         <img className="c-icon" src="https://www.arsaga.jp/wp-content/themes/new-arsaga-hp-copy/img/contact/icon/line.png" alt="line" />
                         LINEでお問い合わせ
                     </a>
