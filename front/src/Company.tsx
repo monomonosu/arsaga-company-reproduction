@@ -320,6 +320,27 @@ function Company() {
                     </a>
                 </div>
             </div>
+            <div className="o-recruit-container">
+                <a className="o-box -u-p60" href="">
+                    <h4 className="c-title">RECRUIT</h4>
+                    <div className="o-inner">
+                        <p className="c-sub">採用情報</p>
+                        <div className="c-border">
+                            <span className="c-linered"></span>
+                            <span className="c-linewhite"></span>
+                        </div>
+                    </div>
+                    <p className="c-text">
+                        アルサーガパートナーズ株式会社は、一緒に働く仲間を募集しています。
+                        「人間らしく生きる」「自分で考えて行動する」という文化を重視しており、「バグを否定しない」という言葉を掲げています。
+                        挑戦をし続けることが一番の成長に繋がると信じているからです。
+                        まずは挑戦する第一歩を踏み出してもらえれば幸いです。
+                    </p>
+                </a>
+                <div className="o-box">
+                    <img src="https://www.arsaga.jp/wp-content/themes/new-arsaga-hp-copy/img/recruit/office.png" alt="recruit" className="o-image" />
+                </div>
+            </div>
         </div>
     )
 }

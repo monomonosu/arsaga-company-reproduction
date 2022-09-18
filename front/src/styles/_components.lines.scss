@@ -4,3 +4,25 @@
     left: 50%;
     position: absolute;
 }
+
+.c-border {
+    display: flex;
+    align-items: center;
+
+    >.c-linered {
+        display: inline-block;
+        width: 50px;
+        height: 1px;
+        background-color: #e8374a;
+        transition: all .3s;
+    }
+
+    >.c-linewhite {
+        display: inline-block;
+        margin-left: -10px;
+        width: 350px;
+        height: 1px;
+        background-color: #fff;
+        transition: all .3s;
+    }
+}
