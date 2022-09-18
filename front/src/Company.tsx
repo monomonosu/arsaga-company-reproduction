@@ -321,7 +321,7 @@ function Company() {
                 </div>
             </div>
             <div className="o-recruit-container">
-                <a className="o-box -u-p60" href="">
+                <a className="o-box -u-p60" href="https://www.arsaga.jp/recruit/">
                     <h4 className="c-title">RECRUIT</h4>
                     <div className="o-inner">
                         <p className="c-sub">採用情報</p>
