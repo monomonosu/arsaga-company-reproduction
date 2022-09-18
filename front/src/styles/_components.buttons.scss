@@ -11,5 +11,9 @@
         margin-bottom: 50px;
         border: none;
         transition: all .3s;
+
+        &:hover {
+            opacity: 0.8;
+        }
     }
 }
