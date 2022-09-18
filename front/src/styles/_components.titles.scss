@@ -4,6 +4,17 @@
     font-weight: 700;
 }
 
+.o-recruit-container {
+    >.o-box {
+        >.c-title {
+            display: block;
+            font-size: 5.4rem;
+            font-weight: 500;
+            color: #fff;
+        }
+    }
+}
+
 .o-heading>.c-sub {
     font-size: 1.6rem;
     display: block;

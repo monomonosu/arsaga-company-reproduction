@@ -61,3 +61,14 @@
         opacity: 0.8;
     }
 }
+
+.o-recruit-container {
+    >.o-box {
+        >.o-inner {
+            >.c-sub {
+                font-size: 1.6rem;
+                margin-right: 50px;
+            }
+        }
+    }
+}
