@@ -309,12 +309,12 @@ function Company() {
                         <div className="c-vertical-line u-h-small u-red"></div>
                     </div>
                     <div className="c-button-common c-contacttext -u-bgred -u-white -u-mauto">
-                        <a className="c-text -u-white" href="">
+                        <a className="c-text -u-white" href="https://www.arsaga.jp/contact/">
                             お問い合わせ<br />
                             CONTACT
                         </a>
                     </div>
-                    <a className="c-text-link c-text" href="https://www.arsaga.jp/contact/">
+                    <a className="c-text-link c-text" href="https://line.me/R/ti/p/%40adx5377b">
                         <img className="c-icon" src="https://www.arsaga.jp/wp-content/themes/new-arsaga-hp-copy/img/contact/icon/line.png" alt="line" />
                         LINEでお問い合わせ
                     </a>
