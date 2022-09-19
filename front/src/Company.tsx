@@ -337,7 +337,7 @@ function Company() {
                         まずは挑戦する第一歩を踏み出してもらえれば幸いです。
                     </p>
                 </a>
-                <div className="o-box">
+                <div className="o-box -image">
                     <img src="https://www.arsaga.jp/wp-content/themes/new-arsaga-hp-copy/img/recruit/office.png" alt="recruit" className="o-image" />
                 </div>
             </div>

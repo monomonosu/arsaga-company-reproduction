@@ -87,3 +87,21 @@
         }
     }
 }
+
+.o-recruit-container {
+    >.-image::before {
+        position: absolute;
+        z-index: 3;
+        content: "";
+        width: 0%;
+        height: 100%;
+        background-color: rgba(232, 55, 74, .5);
+    }
+}
+
+.o-recruit-container:hover {
+    >.-image::before {
+        transition: all .3s;
+        width: 100%;
+    }
+}
