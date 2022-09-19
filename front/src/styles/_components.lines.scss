@@ -26,3 +26,13 @@
         transition: all .3s;
     }
 }
+
+.o-recruit-container:hover.o-recruit-container>.o-box>.o-inner>.c-border {
+    >.c-linered {
+        width: 400px;
+    }
+
+    >.c-linewhite {
+        width: 0px;
+    }
+}
