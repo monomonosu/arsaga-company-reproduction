@@ -348,6 +348,20 @@ function Company() {
                     </a>
                 </div>
             </div>
+            <footer>
+                <div className="o-footer-container">
+                    <div className="o-container">
+                        <div className="o-box">
+                            <div className="o-inner">
+                                <div className="o-logo">
+                                    <img src="https://www.arsaga.jp/wp-content/themes/new-arsaga-hp-copy/img/common/footer_logo.svg" alt="arsaga" />
+                                </div>
+                                <p className="c-copyright">Copyright©2019 Arsaga Partners, Inc.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
         </div>
     )
 }

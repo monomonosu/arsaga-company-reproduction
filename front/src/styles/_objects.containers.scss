@@ -124,3 +124,42 @@
         height: 60px;
     }
 }
+
+.o-footer-container {
+    position: relative;
+    z-index: 11;
+}
+
+.o-footer-container {
+    >.o-container {
+        width: 100%;
+        max-width: unset;
+        display: flex;
+    }
+}
+
+.o-footer-container {
+    >.o-container {
+        >.o-box {
+            width: 25%;
+            min-width: 362px;
+            background-color: $black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+.o-footer-container {
+    >.o-container {
+        >.o-box {
+            >.o-inner {
+                >.o-logo {
+                    margin-bottom: 30px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

@@ -72,3 +72,17 @@
         }
     }
 }
+
+.o-footer-container {
+    >.o-container {
+        >.o-box {
+            >.o-inner {
+                >.c-copyright {
+                    text-align: center;
+                    font-size: 1.2rem;
+                    color: rgba(255, 255, 255, .4);
+                }
+            }
+        }
+    }
+}
