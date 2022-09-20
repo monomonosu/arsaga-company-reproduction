@@ -105,3 +105,22 @@
         width: 100%;
     }
 }
+
+.o-page-top-container {
+    position: relative;
+}
+
+.o-page-top-container {
+    >.o-container {
+        position: absolute;
+        bottom: 10px;
+        display: flex;
+        right: 40px;
+        z-index: 3;
+    }
+
+    >.o-container img {
+        width: 60px;
+        height: 60px;
+    }
+}

@@ -341,6 +341,13 @@ function Company() {
                     <img src="https://www.arsaga.jp/wp-content/themes/new-arsaga-hp-copy/img/recruit/office.png" alt="recruit" className="o-image" />
                 </div>
             </div>
+            <div className="o-page-top-container">
+                <div className="o-container">
+                    <a href="">
+                        <img src="https://www.arsaga.jp/wp-content/themes/new-arsaga-hp-copy/img/common/top.png" alt="page-top" />
+                    </a>
+                </div>
+            </div>
         </div>
     )
 }
