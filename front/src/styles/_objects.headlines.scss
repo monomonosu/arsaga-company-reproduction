@@ -27,6 +27,18 @@
     }
 }
 
+.o-footer-list {
+    >.o-container {
+        >.list {
+            >.o-headline {
+                font-size: 2rem;
+                color: #FFFFFF99;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
 .o-heading {
     font-size: 3.6rem;
     font-weight: 700;

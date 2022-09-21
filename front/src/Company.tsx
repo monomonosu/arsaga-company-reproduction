@@ -348,6 +348,56 @@ function Company() {
                     </a>
                 </div>
             </div>
+            <footer>
+                <div className="o-footer-container">
+                    <div className="o-container">
+                        <div className="o-box">
+                            <div className="o-inner">
+                                <div className="o-logo">
+                                    <img src="https://www.arsaga.jp/wp-content/themes/new-arsaga-hp-copy/img/common/footer_logo.svg" alt="arsaga" />
+                                </div>
+                                <p className="c-copyright">Copyright©2019 Arsaga Partners, Inc.</p>
+                            </div>
+                        </div>
+                        <div className="o-footer-list">
+                            <div className="o-container">
+                                <ul className="list">
+                                    <li className="o-item o-headline">
+                                        SOLUTION
+                                        <span className="c-sub">事業方針</span>
+                                    </li>
+                                    <li className="o-item -u-mb5">
+                                        <a className="o-link -u-mb5 -u-fs12" href="https://www.arsaga.jp/consulting">戦略コンサルティング</a>
+                                    </li>
+                                    <li className="o-item -u-mb5">
+                                        <a className="o-link -u-mb5 -u-fs12" href="https://www.arsaga.jp/service/">IT開発</a>
+                                    </li>
+                                    <li className="o-item -u-mb5">
+                                        <a className="o-link -u-mb5 -u-fs12" href="https://www.arsaga.jp/movie" target="blank">ライブ動画配信ソリューション</a>
+                                    </li>
+                                    <li className="o-item -u-mb5">
+                                        <a className="o-link -u-mb5 -u-fs12" href="https://falcon-db.com/" target="blank">FALCON（人材紹介DB）</a>
+                                    </li>
+                                    <li className="o-item">
+                                        <a className="o-link" href="https://www.arsaga.jp/service/">
+                                            SERVICE&nbsp;
+                                            <span className="c-sub">サービス</span>
+                                        </a>
+                                    </li>
+                                    <li className="o-item">
+                                        <a className="o-link" href="https://www.arsaga.jp/works/">
+                                            WORKS&nbsp;
+                                            <span className="c-sub">制作事例</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul className="list"></ul>
+                                <ul className="list"></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
         </div>
     )
 }
