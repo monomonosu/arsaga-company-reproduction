@@ -86,3 +86,54 @@
         }
     }
 }
+
+.o-footer-list {
+    >.o-container {
+        >.list {
+            >.o-headline {
+                >.c-sub {
+                    display: inline-block;
+                    margin-left: 5px;
+                    font-size: 1.2rem;
+                    font-weight: 700;
+                }
+            }
+
+
+        }
+    }
+}
+
+.o-footer-list {
+    >.o-container {
+        >.list {
+            >.o-item {
+                >.o-link {
+                    >.c-sub {
+                        display: inline-block;
+                        color: #fff;
+                        font-size: 1.2rem;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.o-footer-list {
+    >.o-container {
+        >.list {
+            >.o-item {
+                >.o-link {
+                    display: inline-block;
+                    color: #fff;
+                    font-size: 2rem;
+                    font-weight: 500;
+                    margin-right: 5px;
+                    transition: all .3s;
+                }
+            }
+        }
+    }
+}

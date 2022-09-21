@@ -163,3 +163,28 @@
         }
     }
 }
+
+.o-footer-list {
+    width: 75%;
+}
+
+.o-footer-list {
+    >.o-container {
+        box-sizing: border-box;
+        max-width: unset;
+        padding: 80px 90px;
+        background-color: $gray-dark;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.o-footer-list {
+    >.o-container {
+        >.list {
+            >.o-item {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
