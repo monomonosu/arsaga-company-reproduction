@@ -417,7 +417,23 @@ function Company() {
                                         </a>
                                     </li>
                                 </ul>
-                                <ul className="list"></ul>
+                                <ul className="list">
+                                    <li className="o-item">
+                                        <a className="o-link" href="https://www.arsaga.jp/privacypolicy/">
+                                            <span className="c-sub">プライバシーポリシー</span>
+                                        </a>
+                                    </li>
+                                    <li className="o-item">
+                                        <a className="o-link" href="https://www.arsaga.jp/securitypolicy/">
+                                            <span className="c-sub">情報セキュリティーポリシー</span>
+                                        </a>
+                                    </li>
+                                    <li className="o-item">
+                                        <a className="o-link" href="https://www.arsaga.jp/privacy_statement/">
+                                            <span className="c-sub">個人情報の取り扱いについて</span>
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
