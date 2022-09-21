@@ -391,8 +391,49 @@ function Company() {
                                         </a>
                                     </li>
                                 </ul>
-                                <ul className="list"></ul>
-                                <ul className="list"></ul>
+                                <ul className="list">
+                                    <li className="o-item">
+                                        <a className="o-link" href="https://www.arsaga.jp/company/">
+                                            COMPANY&nbsp;
+                                            <span className="c-sub">会社情報</span>
+                                        </a>
+                                    </li>
+                                    <li className="o-item">
+                                        <a className="o-link" href="https://www.arsaga.jp/news/'?cat=press-release'">
+                                            NEWS&nbsp;
+                                            <span className="c-sub">ニュース</span>
+                                        </a>
+                                    </li>
+                                    <li className="o-item">
+                                        <a className="o-link" href="https://www.arsaga.jp/recruit/">
+                                            RECRUIT&nbsp;
+                                            <span className="c-sub">採用情報</span>
+                                        </a>
+                                    </li>
+                                    <li className="o-item">
+                                        <a className="o-link" href="https://www.arsaga.jp/contact/">
+                                            CONTACT&nbsp;
+                                            <span className="c-sub">お問い合わせ</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul className="list">
+                                    <li className="o-item">
+                                        <a className="o-link" href="https://www.arsaga.jp/privacypolicy/">
+                                            <span className="c-sub">プライバシーポリシー</span>
+                                        </a>
+                                    </li>
+                                    <li className="o-item">
+                                        <a className="o-link" href="https://www.arsaga.jp/securitypolicy/">
+                                            <span className="c-sub">情報セキュリティーポリシー</span>
+                                        </a>
+                                    </li>
+                                    <li className="o-item">
+                                        <a className="o-link" href="https://www.arsaga.jp/privacy_statement/">
+                                            <span className="c-sub">個人情報の取り扱いについて</span>
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
