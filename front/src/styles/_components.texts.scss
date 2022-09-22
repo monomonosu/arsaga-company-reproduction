@@ -2,6 +2,32 @@
     font-size: 1.6rem;
 }
 
+.o-header-nav {
+    >.o-list {
+        >.c-link {
+            cursor: pointer;
+            color: $gray-dark;
+
+            &:hover {
+                transition: .3s;
+                color: $red;
+            }
+        }
+    }
+}
+
+.o-header-nav {
+    >.o-list {
+        >.c-link {
+            >.c-text {
+                font-size: 16px;
+                letter-spacing: .64px;
+                text-align: center;
+            }
+        }
+    }
+}
+
 .o-inner {
     >.c-text {
         font-size: 1.6rem;
