@@ -6,11 +6,11 @@
     >.o-list {
         >.c-link {
             cursor: pointer;
-            color: #333;
+            color: $gray-dark;
 
             &:hover {
                 transition: .3s;
-                color: red;
+                color: $red;
             }
         }
     }
