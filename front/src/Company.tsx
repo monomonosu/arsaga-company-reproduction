@@ -19,6 +19,13 @@ function Company() {
     return (
         <div>
             <p className="c-company-name-vertical">Arsaga Partners, Inc.</p>
+            <header className="o-header-container">
+                <div className="o-inner">
+                    <a className="o-logo" href="https://www.arsaga.jp/">
+                        <img className="o-image" src="https://www.arsaga.jp/wp-content/themes/new-arsaga-hp-copy/img/common/arsaga_logo_gray.svg" alt="arsaga-logo" />
+                    </a>
+                </div>
+            </header>
             <div className="o-common-container u-mt80">
                 <div className="o-container">
                     <div className="o-common-headline u-mb-large">
