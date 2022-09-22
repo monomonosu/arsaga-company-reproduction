@@ -43,6 +43,17 @@
     }
 }
 
+.o-header-nav {
+    display: flex;
+    margin: 0;
+}
+
+.o-header-nav {
+    >.o-list {
+        padding: 20px;
+    }
+}
+
 .o-common-container {
     position: relative;
     z-index: 3;

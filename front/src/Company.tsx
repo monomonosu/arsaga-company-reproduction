@@ -24,6 +24,50 @@ function Company() {
                     <a className="o-logo" href="https://www.arsaga.jp/">
                         <img className="o-image" src="https://www.arsaga.jp/wp-content/themes/new-arsaga-hp-copy/img/common/arsaga_logo_gray.svg" alt="arsaga-logo" />
                     </a>
+                    <ul className="o-header-nav">
+                        <li className="o-list">
+                            <a className="c-link" href="https://www.arsaga.jp/consulting">
+                                <p className="c-text">SOLUTION</p>
+                                <p className="c-text -u-fssmall">事業方針</p>
+                            </a>
+                        </li>
+                        <li className="o-list">
+                            <a className="c-link" href="https://www.arsaga.jp/service/">
+                                <p className="c-text">SERVICE</p>
+                                <p className="c-text -u-fssmall">サービス</p>
+                            </a>
+                        </li>
+                        <li className="o-list">
+                            <a className="c-link" href="https://www.arsaga.jp/works/">
+                                <p className="c-text">WORKS</p>
+                                <p className="c-text -u-fssmall">制作事例</p>
+                            </a>
+                        </li>
+                        <li className="o-list">
+                            <a className="c-link" href="https://www.arsaga.jp/company/">
+                                <p className="c-text">COMPANY</p>
+                                <p className="c-text -u-fssmall">会社情報</p>
+                            </a>
+                        </li>
+                        <li className="o-list">
+                            <a className="c-link" href="https://www.arsaga.jp/news/?cat=press-release">
+                                <p className="c-text">NEWS</p>
+                                <p className="c-text -u-fssmall">ニュース</p>
+                            </a>
+                        </li>
+                        <li className="o-list">
+                            <a className="c-link" href="https://www.arsaga.jp/knowledge/dx-technical-glossary/">
+                                <p className="c-text">KNOWLEDGE</p>
+                                <p className="c-text -u-fssmall">ナレッジ</p>
+                            </a>
+                        </li>
+                        <li className="o-list">
+                            <a className="c-link" href="https://www.arsaga.jp/recruit/">
+                                <p className="c-text">RECRUIT</p>
+                                <p className="c-text -u-fssmall">採用情報</p>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </header>
             <div className="o-common-container u-mt80">
