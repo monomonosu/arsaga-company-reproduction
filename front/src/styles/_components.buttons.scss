@@ -17,3 +17,23 @@
         }
     }
 }
+
+.c-inquiry {
+    color: $red;
+    outline: 2px solid $red;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    font-size: 14px;
+    font-weight: 700;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    &:hover {
+        outline: 3px solid $red;
+    }
+}

@@ -67,6 +67,9 @@ function Company() {
                                 <p className="c-text -u-fssmall">採用情報</p>
                             </a>
                         </li>
+                        <li className="o-list">
+                            <a className="c-inquiry" href="https://www.arsaga.jp/contact/">お問い合わせ</a>
+                        </li>
                     </ul>
                 </div>
             </header>
