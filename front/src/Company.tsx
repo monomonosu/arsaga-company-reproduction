@@ -71,9 +71,9 @@ function Company() {
                         <li className="o-list">
                             <a className="c-inquiry" href="https://www.arsaga.jp/contact/">お問い合わせ</a>
                         </li>
-                        <div className="hoge" style={{ width: "1006px", height: "100px", display: "inline-grid", position: "absolute", backgroundColor: "black", top: "80px", flexDirection: "column" }}>
+                        {/* <div className="hoge" style={{ width: "1006px", height: "100px", display: "inline-grid", position: "absolute", backgroundColor: "black", top: "80px", flexDirection: "column" }}>
                             aaaa
-                        </div>
+                        </div> */}
                     </ul>
                 </div>
             </header>
