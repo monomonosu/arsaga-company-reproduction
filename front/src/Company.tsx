@@ -25,7 +25,7 @@ function Company() {
                     <a className="o-logo" href="https://www.arsaga.jp/">
                         <img className="o-image" src="https://www.arsaga.jp/wp-content/themes/new-arsaga-hp-copy/img/common/arsaga_logo_gray.svg" alt="arsaga-logo" />
                     </a>
-                    <ul className="o-header-nav" style={{ display: "inline-flex", padding: "0", margin: "0" }}>
+                    <ul className="o-header-nav">
                         <li className="o-list">
                             <a className="c-link" href="https://www.arsaga.jp/consulting">
                                 <p className="c-text">SOLUTION</p>
@@ -71,9 +71,6 @@ function Company() {
                         <li className="o-list">
                             <a className="c-inquiry" href="https://www.arsaga.jp/contact/">お問い合わせ</a>
                         </li>
-                        {/* <div className="hoge" style={{ width: "1006px", height: "100px", display: "inline-grid", position: "absolute", backgroundColor: "black", top: "80px", flexDirection: "column" }}>
-                            aaaa
-                        </div> */}
                     </ul>
                 </div>
             </header>
