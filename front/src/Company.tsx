@@ -1,3 +1,4 @@
+import { FaRegClone } from "react-icons/fa"
 import "./styles/main.css"
 import "./styles/main.scss";
 import { OnScreenJudge } from './components/OnScreenJudge';
@@ -427,10 +428,10 @@ function Company() {
                                         <a className="o-link -u-mb5 -u-fs12" href="https://www.arsaga.jp/service/">IT開発</a>
                                     </li>
                                     <li className="o-item -u-mb5">
-                                        <a className="o-link -u-mb5 -u-fs12" href="https://www.arsaga.jp/movie" target="blank">ライブ動画配信ソリューション</a>
+                                        <a className="o-link -u-mb5 -u-fs12" href="https://www.arsaga.jp/movie" target="blank">ライブ動画配信ソリューション <FaRegClone /></a>
                                     </li>
                                     <li className="o-item -u-mb5">
-                                        <a className="o-link -u-mb5 -u-fs12" href="https://falcon-db.com/" target="blank">FALCON（人材紹介DB）</a>
+                                        <a className="o-link -u-mb5 -u-fs12" href="https://falcon-db.com/" target="blank">FALCON（人材紹介DB）<FaRegClone /></a>
                                     </li>
                                     <li className="o-item">
                                         <a className="o-link" href="https://www.arsaga.jp/service/">
