@@ -71,6 +71,9 @@ function Company() {
                         <li className="o-list">
                             <a className="c-inquiry" href="https://www.arsaga.jp/contact/">お問い合わせ</a>
                         </li>
+                        <div className="o-header-slider">
+                            aaaa
+                        </div>
                     </ul>
                 </div>
             </header>

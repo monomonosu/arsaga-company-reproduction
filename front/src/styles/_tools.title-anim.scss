@@ -22,3 +22,15 @@
         transform: translate(100%, 0)
     }
 }
+
+@keyframes headerSlide {
+    0% {
+        width: 0px;
+        display: inline;
+    }
+
+    100% {
+        width: 300px;
+        display: inline;
+    }
+}
