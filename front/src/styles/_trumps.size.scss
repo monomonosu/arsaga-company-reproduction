@@ -13,3 +13,14 @@
 .-u-fssmall {
     font-size: 11px !important;
 }
+
+.o-header-slider {
+    >.o-wrapper {
+        >.o-inner {
+            >.-u-fssmall {
+                font-size: 13px !important;
+                font-weight: 400;
+            }
+        }
+    }
+}

@@ -72,6 +72,30 @@
     }
 }
 
+.o-header-slider {
+    >.o-wrapper {
+        display: flex;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+}
+
+.o-header-slider {
+    >.o-wrapper {
+        >.o-inner {
+            width: 25%;
+        }
+    }
+}
+
+.o-header-slider {
+    >.o-wrapper {
+        >.o-box {
+            width: 75%;
+        }
+    }
+}
+
 .o-common-container {
     position: relative;
     z-index: 3;

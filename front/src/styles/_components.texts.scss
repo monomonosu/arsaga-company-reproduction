@@ -64,6 +64,18 @@
     }
 }
 
+.o-header-slider {
+    >.o-wrapper {
+        >.o-inner {
+            >.c-text {
+                color: $white;
+                font-size: 18px;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
 .c-company-name-vertical {
     color: $red;
     font: normal bold 12px Montserrat;
