@@ -81,7 +81,10 @@ function Company() {
                             <a className="c-inquiry" href="https://www.arsaga.jp/contact/">お問い合わせ</a>
                         </li>
                         <div className="o-header-slider">
-                            <SliderInner linkName={hoverLinkName}></SliderInner>
+                            <div className="o-wrapper">
+                                <SliderInner linkName={hoverLinkName}></SliderInner>
+                                <div className="o-box"></div>
+                            </div>
                         </div>
                     </ul>
                 </div>
