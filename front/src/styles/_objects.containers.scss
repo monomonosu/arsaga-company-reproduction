@@ -54,6 +54,24 @@
     }
 }
 
+.o-header-slider {
+    width: 1000px;
+    height: auto;
+    position: absolute;
+    background-color: $gray-dark;
+    top: 80px;
+    flex-direction: column;
+    transform: scaleY(0);
+    transform-origin: center top;
+    transition: all .3s;
+}
+
+.o-header-nav {
+    >.o-list:hover~.o-header-slider {
+        transform: scaleY(1);
+    }
+}
+
 .o-common-container {
     position: relative;
     z-index: 3;
