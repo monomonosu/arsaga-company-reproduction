@@ -28,6 +28,40 @@
     }
 }
 
+.o-header-slider {
+    >.o-wrapper {
+        >.o-box {
+            >.c-link {
+                color: $white;
+                display: block;
+                font-size: 12px;
+                padding-bottom: 10px;
+            }
+        }
+    }
+}
+
+.o-header-slider {
+    >.o-wrapper {
+        >.o-box {
+            >.c-link:last-child {
+                padding-bottom: 0;
+            }
+        }
+    }
+}
+
+.o-header-slider {
+    >.o-wrapper {
+        >.o-box {
+            >.c-link:hover {
+                transition: 0.3s;
+                color: $red;
+            }
+        }
+    }
+}
+
 .o-inner {
     >.c-text {
         font-size: 1.6rem;

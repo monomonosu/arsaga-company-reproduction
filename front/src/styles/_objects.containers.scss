@@ -80,6 +80,10 @@
     }
 }
 
+.o-header-slider:hover {
+    transform: scaleY(1);
+}
+
 .o-header-slider {
     >.o-wrapper {
         >.o-inner {
