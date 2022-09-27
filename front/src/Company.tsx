@@ -4,6 +4,7 @@ import "./styles/main.css"
 import "./styles/main.scss";
 // components
 import { OnScreenJudge } from './components/OnScreenJudge';
+import HeaderLink from "./components/HeaderLink";
 import SliderInner from "./components/SliderInner";
 import SliderBox from "./components/SliderBox";
 import ValueList from "./components/ValueList";
@@ -24,9 +25,6 @@ function onEnterScreenAfterElement(title: string) {
 
 function Company() {
     const [hoverLinkName, setHoverLinkName] = useState<Link>();
-    function listEnterLink(linkName: Link) {
-        setHoverLinkName(linkName);
-    }
     return (
         <div>
             <p className="c-company-name-vertical">Arsaga Partners, Inc.</p>
@@ -36,48 +34,13 @@ function Company() {
                         <img className="o-image" src="https://www.arsaga.jp/wp-content/themes/new-arsaga-hp-copy/img/common/arsaga_logo_gray.svg" alt="arsaga-logo" />
                     </a>
                     <ul className="o-header-nav">
-                        <li className="o-list" onMouseEnter={() => listEnterLink('SOLUTION')}>
-                            <a className="c-link" href="https://www.arsaga.jp/consulting">
-                                <p className="c-text">SOLUTION</p>
-                                <p className="c-text -u-fssmall">事業方針</p>
-                            </a>
-                        </li>
-                        <li className="o-list" onMouseEnter={() => listEnterLink('SERVICE')}>
-                            <a className="c-link" href="https://www.arsaga.jp/service/">
-                                <p className="c-text">SERVICE</p>
-                                <p className="c-text -u-fssmall">サービス</p>
-                            </a>
-                        </li>
-                        <li className="o-list" onMouseEnter={() => listEnterLink('WORKS')}>
-                            <a className="c-link" href="https://www.arsaga.jp/works/">
-                                <p className="c-text">WORKS</p>
-                                <p className="c-text -u-fssmall">制作事例</p>
-                            </a>
-                        </li>
-                        <li className="o-list" onMouseEnter={() => listEnterLink('COMPANY')}>
-                            <a className="c-link" href="https://www.arsaga.jp/company/">
-                                <p className="c-text">COMPANY</p>
-                                <p className="c-text -u-fssmall">会社情報</p>
-                            </a>
-                        </li>
-                        <li className="o-list" onMouseEnter={() => listEnterLink('NEWS')}>
-                            <a className="c-link" href="https://www.arsaga.jp/news/?cat=press-release">
-                                <p className="c-text">NEWS</p>
-                                <p className="c-text -u-fssmall">ニュース</p>
-                            </a>
-                        </li>
-                        <li className="o-list" onMouseEnter={() => listEnterLink('KNOWLEDGE')}>
-                            <a className="c-link" href="https://www.arsaga.jp/knowledge/dx-technical-glossary/">
-                                <p className="c-text">KNOWLEDGE</p>
-                                <p className="c-text -u-fssmall">ナレッジ</p>
-                            </a>
-                        </li>
-                        <li className="o-list" onMouseEnter={() => listEnterLink('RECRUIT')}>
-                            <a className="c-link" href="https://www.arsaga.jp/recruit/">
-                                <p className="c-text">RECRUIT</p>
-                                <p className="c-text -u-fssmall">採用情報</p>
-                            </a>
-                        </li>
+                        <HeaderLink linkName="SOLUTION" linkSubTitle="事業方針" linkUrl="https://www.arsaga.jp/consulting" setHoverLinkName={setHoverLinkName}></HeaderLink>
+                        <HeaderLink linkName="SERVICE" linkSubTitle="サービス" linkUrl="https://www.arsaga.jp/service/" setHoverLinkName={setHoverLinkName}></HeaderLink>
+                        <HeaderLink linkName="WORKS" linkSubTitle="制作事例" linkUrl="https://www.arsaga.jp/works/" setHoverLinkName={setHoverLinkName}></HeaderLink>
+                        <HeaderLink linkName="COMPANY" linkSubTitle="会社情報" linkUrl="https://www.arsaga.jp/company/" setHoverLinkName={setHoverLinkName}></HeaderLink>
+                        <HeaderLink linkName="NEWS" linkSubTitle="ニュース" linkUrl="https://www.arsaga.jp/news/?cat=press-release" setHoverLinkName={setHoverLinkName}></HeaderLink>
+                        <HeaderLink linkName="KNOWLEDGE" linkSubTitle="ナレッジ" linkUrl="https://www.arsaga.jp/knowledge/dx-technical-glossary/" setHoverLinkName={setHoverLinkName}></HeaderLink>
+                        <HeaderLink linkName="RECRUIT" linkSubTitle="採用情報" linkUrl="https://www.arsaga.jp/recruit/" setHoverLinkName={setHoverLinkName}></HeaderLink>
                         <li className="o-list">
                             <a className="c-inquiry" href="https://www.arsaga.jp/contact/">お問い合わせ</a>
                         </li>
@@ -510,7 +473,7 @@ function Company() {
                     </div>
                 </div>
             </footer>
-        </div>
+        </div >
     )
 }
 
