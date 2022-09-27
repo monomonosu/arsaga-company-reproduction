@@ -5,6 +5,7 @@ import "./styles/main.scss";
 // components
 import { OnScreenJudge } from './components/OnScreenJudge';
 import SliderInner from "./components/SliderInner";
+import SliderBox from "./components/SliderBox";
 import ValueList from "./components/ValueList";
 // types
 import type { Link } from "./types/Link";
@@ -83,7 +84,7 @@ function Company() {
                         <div className="o-header-slider">
                             <div className="o-wrapper">
                                 <SliderInner linkName={hoverLinkName}></SliderInner>
-                                <div className="o-box"></div>
+                                <SliderBox linkName={hoverLinkName}></SliderBox>
                             </div>
                         </div>
                     </ul>
