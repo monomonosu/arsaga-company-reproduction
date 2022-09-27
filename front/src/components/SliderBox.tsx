@@ -1,13 +1,8 @@
 import type { Link } from "../types/Link";
-
-type BoxContents = {
-    target: string,
-    contentsTitle: string,
-    contentsLink: string
-}
+import type { HeaderSubLink } from "../types/HeaderSubLink";
 
 function SliderBox(props: { linkName: Link }): JSX.Element {
-    function contents(): BoxContents[] {
+    function contents(): HeaderSubLink[] {
         if (props.linkName === "SOLUTION")
             return [
                 { target: "", contentsTitle: "戦略コンサルティング", contentsLink: "https://www.arsaga.jp/consulting" },
